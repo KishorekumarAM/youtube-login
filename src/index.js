@@ -3,6 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route,} from 'react-router-dom';
+import Home from './Components/Home';
+import Shots from './Components/Shots';
+import Subcriptions from './Components/Subcriptions';
+import Library from './Components/Library';
+import History from './Components/History';
+
+
+function Index() {
+  return (
+    <Router>
+    <div className='App'>
+      <Routes>
+        <Route exact path='/' element={<Home />}></Route>
+        <Route exact path='shots' element={<Shots />}></Route>
+        <Route exact path='subcriptions' element={<Subcriptions />}></Route>
+        <Route exact path='library' element={<Library />}></Route>
+        <Route exact path='history' element={<History />}></Route>
+
+      </Routes>
+
+    </div>
+    </Router>
+  )
+}
+
+export default Index
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
