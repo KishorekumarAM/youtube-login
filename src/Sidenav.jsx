@@ -154,9 +154,9 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <AiFillHome  fontSize={30} style={{color:'red',marginLeft:'20px'}}/>
+                  <AiFillHome  fontSize={30} style={{color:'black',marginLeft:'20px'}}/>
                 </ListItemIcon>
-                <ListItemText primary="Home" style={{color: 'blue',marginLeft:'15px',marginTop:' 15px'}}/>
+                <ListItemText primary="Home" style={{color: 'black',marginLeft:'15px',marginTop:' 15px'}}/>
               </ListItemButton>
             </ListItem>
 
@@ -175,9 +175,9 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <BiSolidMoviePlay fontSize={30} style={{color:'red',marginLeft:'20px'}}/>
+                  <BiSolidMoviePlay fontSize={30} style={{color:'black',marginLeft:'20px'}}/>
                 </ListItemIcon>
-                <ListItemText primary="Shorts" style={{color: 'blue',marginLeft:'15px',marginTop:' 15px'}}/>
+                <ListItemText primary="Shorts" style={{color: 'black',marginLeft:'15px',marginTop:' 15px'}}/>
               </ListItemButton>
             </ListItem>
           
@@ -196,9 +196,9 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <BsFillCollectionPlayFill fontSize={30} style={{color:'red',marginLeft:'20px'}}/>
+                  <BsFillCollectionPlayFill fontSize={30} style={{color:'black',marginLeft:'20px'}}/>
                 </ListItemIcon>
-                <ListItemText primary="Subcriptions" style={{color: 'blue',marginLeft:'15px',marginTop:' 15px'}} />
+                <ListItemText primary="Subcriptions" style={{color: 'black',marginLeft:'15px',marginTop:' 15px'}} />
               </ListItemButton>
             </ListItem>
 
@@ -219,9 +219,9 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <BsFillCollectionFill fontSize={30} style={{color:'red',marginLeft:'20px'}}/>
+                  <BsFillCollectionFill fontSize={30} style={{color:'black',marginLeft:'20px'}}/>
                 </ListItemIcon>
-                <ListItemText primary="Library" style={{color: 'blue',marginLeft:'15px',marginTop:' 15px'}}/>
+                <ListItemText primary="Library" style={{color: 'black',marginLeft:'15px',marginTop:' 15px'}}/>
               </ListItemButton>
             </ListItem>
 
@@ -240,9 +240,9 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <FaHistory fontSize={30} style={{color:'red',marginLeft:'20px'}}/>
+                  <FaHistory fontSize={30} style={{color:'black',marginLeft:'20px'}}/>
                 </ListItemIcon>
-                <ListItemText primary="History" style={{color: 'blue',marginLeft:'15px',marginTop:' 15px'}}/>
+                <ListItemText primary="History" style={{color: 'black',marginLeft:'15px',marginTop:' 15px'}}/>
               </ListItemButton>
             </ListItem>
       </Drawer>
